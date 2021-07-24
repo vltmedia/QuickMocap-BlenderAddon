@@ -43,3 +43,8 @@ Your mocap should import, give it a bit of time depending on your PC.
 
 # Programs Of Interest
 - [ROMP](https://github.com/Arthur151/ROMP) Outputs in .npk files ready to be used by this addon. It's as if it was tailor made for it.
+
+# Acknowledgments
+- Core SMPL Importer code was found in the [ROMP](https://github.com/Arthur151/ROMP) code for convert_fbx.py.
+- Core SMPL importer written by Author: Joachim Tesch, Max Planck Institute for Intelligent Systems, Perceiving Systems
+- Blender Addon & class implimentation of the SMPL importer written by Justin Jaro for VLT Media.
