@@ -1,12 +1,13 @@
 
 from panels.quickmocap_panel_ImportNMocap import QMOCAP_PT_ImportNMocap
+from panels.quickmocap_panel_Parent import QMOCAP_PT_Parent
 from panels.quickmocap_panel_Cleanup import QMOCAP_PT_Cleanup
 import bpy
 from bpy.props import IntProperty, PointerProperty, BoolProperty, CollectionProperty,FloatProperty
 from bpy.types import Operator, AddonPreferences
 from bpy.props import StringProperty
 from bpy.types import Panel, PropertyGroup, WindowManager
-from quickUSD import OBJECT_PT_QuickMocapPanel
+# from quickUSD import OBJECT_PT_QuickMocapPanel
 from quickmocap_props import QuickMocapProperties
 from preferences import QuickMocapAddonPreferences
 
@@ -63,8 +64,8 @@ class QuickMocapAddonPreferences(AddonPreferences):
 
 # bl_idname = 'quickmocap.base'
 classes = (
-    OBJECT_PT_QuickMocapPanel,
-    
+    # OBJECT_PT_QuickMocapPanel,
+    QMOCAP_PT_Parent,
     # Populate Child Panels in Order from Top to Bottom
 
     QMOCAP_PT_ImportNMocap,

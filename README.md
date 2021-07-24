@@ -2,7 +2,7 @@
 
 Use this Blender Add-on to import & clean Mocap Pose data from .npz or .pkl files. These files may have been created using Numpy,  [ROMP](https://github.com/Arthur151/ROMP), or other motion capture processes that package the user files accordingly.
 
-![images](images/QuickMocap_v0.3.0.png)
+![images](images/QuickMocap_v0.3.1.png)
 
 [v0.3.0 Overview Video](https://youtu.be/SFZan6cD83w)
 
@@ -16,6 +16,9 @@ Sign-up and download the SMPL here:
 ```SMPL_f_unityDoubleBlends_lbs_10_scale5_207_v1.0.0.fbx```
 ```SMPL_m_unityDoubleBlends_lbs_10_scale5_207_v1.0.0.fbx```
 
+# Bugs
+
+Blender needs to be restarted when the user first installs the addon.
 
 # Usage
 
