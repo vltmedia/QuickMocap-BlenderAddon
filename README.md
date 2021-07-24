@@ -4,7 +4,7 @@ Use this Blender Addon to import & clean Mocap Pose data from .npz or .pkl files
 
 ![images](images/QuickMocap_v0.3.0.png)
 
-[v0.3.0 Overview Video](https://youtu.be/8UheXOZDHY8)
+[v0.3.0 Overview Video](https://youtu.be/SFZan6cD83w)
 
 # Requirements
 
