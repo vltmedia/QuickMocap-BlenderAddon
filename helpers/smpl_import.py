@@ -2,7 +2,7 @@
 # This Class & Blender Addon implimentation is written by Justin Jaro of VLT Media LLC
 # Contact: Github VLTMedia
 # Copyright©2021 Justin Jaro
-# Original non class code license copright below. Original Code was derived from ROMP's (https://github.com/Arthur151/ROMP/blob/master/LICENSE) usage and thus license has been transfered from that program's license holder on the grounds that it is transferable given it's Apache license.This program is thus sold on a pay as you wish monetization platform.
+# Original non class code license copright below. Original Code was derived from ROMP's (https://github.com/Arthur151/ROMP/blob/master/LICENSE) usage and thus the license has been transferred from that program's license holder on the grounds that it is transferrable given its Apache 2.0 license. This program is thus sold on a pay as you wish monetization platform.
 
 
 # Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V. (MPG) is
