@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# This Class implimentation is written by Justin Jaro of VLT Media LLC
+# This Class & Blender Addon implimentation is written by Justin Jaro of VLT Media LLC
 # Contact: Github VLTMedia
 # Copyright©2021 Justin Jaro
-# Original non class code license copright below.
+# Original non class code license copright below. Original Code was derived from ROMP's (https://github.com/Arthur151/ROMP/blob/master/LICENSE) usage and thus license has been transfered from that program's license holder on the grounds that it is transferable given it's Apache license.This program is thus sold on a pay as you wish monetization platform.
 
 
 # Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V. (MPG) is
@@ -27,9 +27,8 @@
 #
 # Notes:
 #  + Male and female gender models only
-#  + Script can be run from command line or in Blender Editor (Text Editor>Run Script)
-#  + Command line: Install mathutils module in your bpy virtualenv with 'pip install mathutils==2.81.2'
 
+# Original Code was derived from ROMP's (https://github.com/Arthur151/ROMP/blob/master/LICENSE) usage and thus license has been transfered from that program's license holder on the grounds that it is transferable given it's Apache license.This program is thus sold on a pay as you wish monetization platform.
 
 
 
