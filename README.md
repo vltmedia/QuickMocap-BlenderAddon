@@ -1,6 +1,6 @@
 # Quick Mocap
 
-Use this Blender Addon to import & clean Mocap Pose data from .npz or .pkl files. These files may have been created using Numpy, ROMP, or other motion capture processes that package their files accordingly.
+Use this Blender Addon to import & clean Mocap Pose data from .npz or .pkl files. These files may have been created using Numpy,  [ROMP](https://github.com/Arthur151/ROMP), or other motion capture processes that package their files accordingly.
 
 ![images](images/QuickMocap_v0.3.0.png)
 
@@ -41,3 +41,5 @@ Your mocap should import, give it a bit of time depending on your PC.
 4. Click the ```Clean Armature Keys``` button to clean the keys based on your settings.
 
 
+# Programs Of Interest
+- [ROMP](https://github.com/Arthur151/ROMP) Outputs in .npk files ready to be used by this addon. It's as if it was tailor made for it.
