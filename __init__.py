@@ -1,6 +1,6 @@
 
 from panels.quickmocap_panel_ImportNMocap import QMOCAP_PT_ImportNMocap
-from panels.quickmocap_panel_Parent import QMOCAP_PT_Parent
+# from panels.quickmocap_panel_Parent import QMOCAP_PT_Parent
 from panels.quickmocap_panel_Cleanup import QMOCAP_PT_Cleanup
 import bpy
 from bpy.props import IntProperty, PointerProperty, BoolProperty, CollectionProperty,FloatProperty
@@ -61,11 +61,26 @@ class QuickMocapAddonPreferences(AddonPreferences):
         layout.prop(self, "female_model_path")
         layout.prop(self, "male_model_path")
 
+class OBJECT_PT_QuickMocapPanel(Panel):
+    bl_label = "Mocap"
+    bl_idname = "OBJECT_PT_quickmocap_panel"
+    bl_space_type = "VIEW_3D"   
+    bl_region_type = "UI"
+    bl_category = "Quick Mocap"
+    bl_context = "objectmode"   
 
+
+    @classmethod
+    def poll(self,context):
+        return context.object is not None
+
+    def draw(self, context):
+        layout = self.layout
+        scene = context.scene
 # bl_idname = 'quickmocap.base'
 classes = (
     # OBJECT_PT_QuickMocapPanel,
-    QMOCAP_PT_Parent,
+    OBJECT_PT_QuickMocapPanel,
     # Populate Child Panels in Order from Top to Bottom
 
     QMOCAP_PT_ImportNMocap,

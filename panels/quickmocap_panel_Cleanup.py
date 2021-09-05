@@ -4,7 +4,7 @@ from panels.quickmocap_panel import QuickMocapTemplatePanel
 
 class QMOCAP_PT_Cleanup(QuickMocapTemplatePanel, bpy.types.Panel):
     bl_idname = 'OBJECT_PT_Cleanup_panel'
-    bl_parent_id = "OBJECT_PT_Parent_panel"
+    bl_parent_id = "OBJECT_PT_quickmocap_panel"
     bl_label = "Cleanup Armature Keys"
 
     def draw(self, context):
