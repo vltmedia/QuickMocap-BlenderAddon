@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
 from panels.quickmocap_panel_ImportNMocap import QMOCAP_PT_ImportNMocap
 # from panels.quickmocap_panel_Parent import QMOCAP_PT_Parent
