@@ -13,7 +13,7 @@ class CleanPoseKeys:
         self.target_bone = target_bone
         self.context = context
         preferences = context.preferences
-        self.addon_prefs = preferences.addons['QuickClean-MocapAddon'].preferences
+        self.addon_prefs = preferences.addons['QuickMocap'].preferences
         self.scene = context.scene
         self.quickmocap_tool = self.scene.quickmocap_tool
         self.in_place = self.quickmocap_tool.in_place
