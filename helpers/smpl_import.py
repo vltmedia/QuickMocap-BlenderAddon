@@ -50,7 +50,18 @@ class SMPL_Importer:
 
     def __init__(self, context):
         preferences = context.preferences
-        addon_prefs = preferences.addons['QuickMocap'].preferences
+        addon_prefs = None
+        try:
+            addon_prefs = preferences.addons['QuickMocap'].preferences
+        
+        except:
+            
+            try:
+                addon_prefs = preferences.addons['QuickMocap-BlenderAddon'].preferences
+            
+            except:
+                addon_prefs = preferences.addons['QuickMocap-BlenderAddon-master'].preferences
+
         # Globals
         # Add your UNIX paths here!
         self.male_model_path = addon_prefs.male_model_path
